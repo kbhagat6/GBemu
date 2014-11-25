@@ -29,6 +29,10 @@ void LOG::reset(void){
 
 void LOG::out(int module, string str){
 
+	time_t stime;
+	char *timebuf = new char[24];
+	ctime_s(timebuf, 24, &stime);
+	//console.log('{' + ts + 'ms} [' + module + '] ' + str);
 
 }
 //
