@@ -8,6 +8,7 @@ z80::z80(void){
 
 }
 	// +++ Instruction simulations +++
+	//
 	// Add E to A, leaving result in A (ADD A, E)
 void z80:: ADDr_e(void){  
 	  _r.a += _r.e;    // Perform addition
