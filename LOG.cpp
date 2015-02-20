@@ -22,7 +22,7 @@ void LOG::reset(void){
 		}
 	}
 	//cout << stime << "\n" << p;
-
+       //
 	delete[] Buf;
 }
 
